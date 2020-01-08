@@ -4,7 +4,7 @@ class Resume extends Component {
     render(){
         return (
             <div>
-               Resume
+                <img src="images/Resume.jpg" width="800"></img>
             </div>
         );
     }

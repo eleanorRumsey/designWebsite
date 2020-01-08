@@ -55,6 +55,12 @@ h1 {
 
 h2 {
   font-size: 2em;
+  text-align: left;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: left;
 }
 
 .nav-bar{
@@ -80,7 +86,7 @@ h2 {
 }
 
 .nav-link:hover{
-  background-color: rgba(125, 113, 192, 0.788);
+  color: rgba(125, 113, 192, 0.788);
 }
 
 .nav-link-text .nav-link-text:hover{
@@ -89,8 +95,14 @@ h2 {
 }
 
 .portfolio-image {
-  width: 25%;
   margin: 1em;
+  max-height: 20em;
+  max-width: 20em;
+  transition: transform .2s;
+}
+
+.portfolio-image:hover {
+  transform: scale(1.2);
 }
 
 .about-image {
@@ -114,4 +126,10 @@ h2 {
   flex-direction: column;
   text-align: left;
   flex: 5;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
