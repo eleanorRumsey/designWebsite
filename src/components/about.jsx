@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
     render(){
         return (
-            <div className = "about-layout">
+            <div className = "layout about-layout">
                 <img src="images/me.jpeg" className="about-image"/>
                 <div className="about-text">
                     <h2>About Me</h2>
@@ -11,8 +11,8 @@ class About extends Component {
                         I'm a software engineering student at the University of Ottawa. 
                         I love art and design and have worked as a graphic designer for both the Engineering Students' Society
                         and the IEEE branch at the university. I decided to start doing freelance design to pursue this passion outside 
-                        school and learn more about what it's like to work for myself. I'm in the process of learning React as well,
-                        so I took the opportunity to develop my React skills by buildingthis website from scratch. 
+                        of school and learn more about what it's like to work for myself. I'm in the process of learning React as well,
+                        so I took the opportunity to develop my React skills by building this website from scratch. 
                     </p>
                 </div>
             </div>
