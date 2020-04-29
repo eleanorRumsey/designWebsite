@@ -49,7 +49,7 @@ p {
   }
 }
 
-h1 {
+h1, h2, h3 {
   font-family: 'Red Hat Display', sans-serif;
   text-align: left;
 }
@@ -61,7 +61,7 @@ h2 {
 }
 
 h3 {
-  text-align: left;
+  font-size: 1.25em !important;
 }
 
 .nav-bar{
@@ -95,15 +95,41 @@ h3 {
   text-decoration: none;
 }
 
-.portfolio-image {
+.portfolio-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio-header {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  justify-content: space-between;
   margin: 1em;
-  max-height: 20em;
+  padding: 1em;
+  /* width: 20em; */
+  /* height: 20em; */
+  background-color: #5e5a9d;
+}
+
+.portfolio-image {
+  display: flex;
+  flex: 1;
+  margin: 1em 0;
+  /* max-height: 20em; */
   max-width: 20em;
   transition: transform .2s;
+  align-self: center;
 }
 
 .portfolio-image:hover {
   transform: scale(1.2);
+}
+
+.fb-header {
+  max-height: 33% !important;
 }
 
 .about-image {

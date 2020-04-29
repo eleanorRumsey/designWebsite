@@ -161,6 +161,7 @@ class Resume extends Component {
                                             <li>React</li>
                                             <li>Razor</li>
                                             <li>.NET</li>
+                                            <li>PHP</li>
                                             <li>Entity</li>
                                             <li>JUnit</li>
                                             <li>PyUnit</li>
@@ -177,6 +178,7 @@ class Resume extends Component {
                                             <li>HTML/CSS</li>
                                             <li>Bootstrap</li>
                                             <li>SQL Server</li>
+                                            <li>PostgreSQL</li>
                                             <li>Karma/Jasmine</li>
                                             <li>Spring Boot Java</li>
                                             <li>Postgres</li>
