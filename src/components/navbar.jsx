@@ -17,10 +17,10 @@ class NavBar extends Component {
                     </Nav>
                     <Nav>
                         <Nav.Link href="https://github.com/eleanorRumsey">
-                            <i class="fab fa-github"></i>
+                            <i className ="fab fa-github"></i>
                         </Nav.Link>
                         <Nav.Link href="https://www.linkedin.com/in/eleanorrumsey/">
-                            <i class="fab fa-linkedin"></i>
+                            <i className ="fab fa-linkedin"></i>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

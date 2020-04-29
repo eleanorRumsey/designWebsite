@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import Portfolio from './portfolio';
 
 class Home extends Component {
     render(){
         return (
-            <div>
-                <span role="img" aria-label="octopus">🐙</span>
-            </div>
+            <Portfolio></Portfolio>
         );
     }
 }

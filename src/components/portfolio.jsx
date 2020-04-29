@@ -1,9 +1,35 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';  
 
-class Portfolio extends Component {
+class PortfolioImage extends Component{
+    constructor(props){
+        super(props);
+        this.shown = false;
+    }
+    
+    launchModal = () => {
+        console.log(this.shown);
+        this.shown = true;
+        console.log(this.shown);
+    }
+
+    render(){
+        return (
+            <div>
+                <img src={this.props.source} className="portfolio-image" onClick={this.launchModal}/>
+                <Modal show={this.shown}>
+                    <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+                </Modal>
+            </div>
+        );
+    }
+}
+
+class Portfolio extends Component { 
     render(){
         return (
             <div>
@@ -14,7 +40,7 @@ class Portfolio extends Component {
                             <h3>(2019 - 2020)</h3>
                         </Col>
                     <Col>
-                        <img src="images/BigEngLittleEngMovieNight.png" className="portfolio-image"/>
+                        <PortfolioImage source="images/BigEngLittleEngMovieNight.png"></PortfolioImage>
                         <img src="images/Ciena_Fb_Banner.png" className="portfolio-image"/>
                     </Col>
                     <Col><img src="images/Ciena_Poster_.png" className="portfolio-image"/></Col>
