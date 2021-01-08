@@ -12,10 +12,32 @@ class Resume extends Component {
                     <p>Software engineering student and graphic designer</p>
                 </div>
                 <Row>
-                    <Col md="9">
+                    <Col>
                         <Card className="card-red">
                             <Card.Header className = "text-purple">Software work experience</Card.Header>
                             <Card.Body className = "card-body-empty">
+                                <Card.Title>Technical Business Analyst and Developer</Card.Title>
+                                <Card.Subtitle>
+                                    <div>Jumping Elephants</div>
+                                    <div>May 2020 - Jan 2021</div>
+                                </Card.Subtitle>
+                                <hr className="border-red"/>
+                                <Card.Text>
+                                    <ul>
+                                        <li>Created automated test scripts using Subject7 
+                                            (tool based on Selenium WebDriver)
+                                            <ul>
+                                                <li>Performed unit and regression testing on multiple web applications</li>
+                                                <li>Trained four other employees on the testing process and tool</li>
+                                                <li>Oversaw and managed the progress of two employees on the project</li>
+                                                <li>Presented testing progress and methods to client</li>
+                                            </ul>
+                                        </li>
+                                        <li>Conducted usability testing session for the UX team</li>
+                                        <li>Drafted a business case and project charter for a potential development project</li>
+                                    </ul>
+                                </Card.Text>
+                                <br/>
                                 <Card.Title>
                                     <div>Junior Applications Developer Co-op</div>
                                 </Card.Title>
@@ -71,7 +93,7 @@ class Resume extends Component {
                                 <Card.Title>Commissioner of Graphic Design</Card.Title>
                                 <Card.Subtitle>
                                     <div>IEEE uOttawa Branch</div>
-                                    <div>Mar 2019 - present</div>
+                                    <div>Mar 2019 - Mar 2020</div>
                                 </Card.Subtitle>
                                 <hr className="border-teal"/>
                                 <Card.Text>
@@ -111,7 +133,7 @@ class Resume extends Component {
                                 <hr className="border-yellow"/>
                                 <Card.Text>
                                     <ul>
-                                        <li>User-centered design, quality assurance, operating systems, data structures 
+                                        <li>Software architecture, artificial intelligence, product development, user-centered design, quality assurance, operating systems, data structures 
                                             and algorithms, Android app design, computer architecture and logic circuits</li>
                                         <li>Dean’s Honor List Winter 2017, Fall 2017</li>
                                         <li>J.V. Marsh and S.G.S. Shiva Memorial Scholarship 2017</li>
@@ -120,7 +142,7 @@ class Resume extends Component {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md="3">
+                    <Col md="4">
                         <Card className="card-yellow">
                             <Card.Header>Contact Info</Card.Header>
                             <Card.Body>
@@ -159,30 +181,29 @@ class Resume extends Component {
                                             <li>Java</li>
                                             <li>Python</li>
                                             <li>React</li>
+                                            <li>Subject7</li>
                                             <li>Razor</li>
-                                            <li>.NET</li>
                                             <li>PHP</li>
                                             <li>Entity</li>
                                             <li>JUnit</li>
                                             <li>PyUnit</li>
                                             <li>C</li>
                                             <li>C++</li>
-                                            <li>ROS</li>
                                             <li>XML</li>
                                         </Col>
                                         <Col md="7.5">
-                                            <li>C#</li>
+                                            <li>C# .NET</li>
                                             <li>TypeScript</li>
                                             <li>Angular</li>
                                             <li>JavaScript</li>
                                             <li>HTML/CSS</li>
                                             <li>Bootstrap</li>
+                                            <li>Firebase</li>
                                             <li>SQL Server</li>
                                             <li>PostgreSQL</li>
                                             <li>Karma/Jasmine</li>
                                             <li>Spring Boot Java</li>
-                                            <li>Postgres</li>
-                                            <li>Firebase</li>
+                                            <li>ROS</li>
                                         </Col>
                                     </Row>
                                 </Card.Text>

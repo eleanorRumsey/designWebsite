@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap");
 
 body {
   background-color: #16162c !important;
@@ -11,22 +11,11 @@ p {
 }
 
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  /* margin: 0 10em; */
 }
 
 .App-header {
-  background-color: #1B1464;
+  background-color: #1b1464;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,17 +29,10 @@ p {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-h1, h2, h3 {
-  font-family: 'Red Hat Display', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Red Hat Display", sans-serif;
   text-align: left;
 }
 
@@ -64,7 +46,7 @@ h3 {
   font-size: 1.25em !important;
 }
 
-.nav-bar{
+.nav-bar {
   color: #ffffff;
   background-color: rgb(158, 182, 184);
   display: flex;
@@ -86,11 +68,11 @@ h3 {
   display: flex !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: rgba(125, 113, 192, 0.788);
 }
 
-.nav-link-text .nav-link-text:hover{
+.nav-link-text .nav-link-text:hover {
   color: #ffffff;
   text-decoration: none;
 }
@@ -105,7 +87,7 @@ h3 {
 .portfolio-header {
   display: flex;
   flex-direction: column;
-  flex:1;
+  flex: 1;
   justify-content: space-between;
   margin: 1em;
   padding: 1em;
@@ -120,7 +102,7 @@ h3 {
   margin: 1em 0;
   /* max-height: 20em; */
   max-width: 20em;
-  transition: transform .2s;
+  transition: transform 0.2s;
   align-self: center;
 }
 
@@ -142,8 +124,8 @@ h3 {
   flex: 1;
 }
 
-.layout { 
-  margin: 2em;
+.layout {
+  margin: 2em 6em;
 }
 
 .about-layout {
@@ -168,7 +150,8 @@ h3 {
   color: #c5c4d6;
 }
 
-.text-purple, .card-link {
+.text-purple,
+.card-link {
   color: #16162c;
 }
 
@@ -211,7 +194,8 @@ h3 {
   background-color: transparent !important;
 }
 
-.card-title, .card-subtitle {
+.card-title,
+.card-subtitle {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -241,7 +225,3 @@ h3 {
   color: #16162c;
   border: 2px solid #5e5a9d !important;
 }
-
-
-
-
