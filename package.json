@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.7.4",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   },
   "homepage": "http://eleanorrumsey.com"
 }
